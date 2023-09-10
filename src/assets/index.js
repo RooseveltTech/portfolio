@@ -32,6 +32,8 @@ import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 import clothly from "./clothly.png";
 import paybox from "./paybox.png";
+import logo_1 from "./logo_1.png";
+import liberty from "./liberty.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   games,
   clothly,
   paybox,
+  logo_1,
+  liberty,
 };
