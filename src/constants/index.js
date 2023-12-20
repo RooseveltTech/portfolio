@@ -8,12 +8,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  aws,
   tailwind,
-  nodejs,
-  mongodb,
+  azure,
+  django,
   git,
-  figma,
+  python,
   docker,
   meta,
   starbucks,
@@ -22,13 +22,13 @@ import {
   // carrent,
   // jobit,
   // tripguide,
-  threejs,
-  summary,
+  redis,
+  ar_sharp,
   games,
   whisper,
-  clothly,
+  libertypay,
   paybox,
-  logo_1,
+  datafestafrica,
   liberty,
 } from "../assets";
 
@@ -53,7 +53,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Software Engineer",
     icon: mobile,
   },
   {
@@ -61,173 +61,201 @@ const services = [
     icon: backend,
   },
   {
-    title: "UI/UX",
+    title: "Programmer",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+    {
+        name: "Python",
+        icon: python,
+    },
+    {
+        name: "JavaScript",
+        icon: javascript,
+    },
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
+        name: "Django",
+        icon: django,
+    },
+    {
+        name: "Redis",
+        icon: redis,
+    },
+    {
+        name: "git",
+        icon: git,
+    },
+    {
+        name: "Azure",
+        icon: azure,
+    },
+    {
+        name: "AWS",
+        icon: aws,
+    },
+    {
+        name: "docker",
+        icon: docker,
+    },
+    {
+        name: "HTML 5",
+        icon: html,
+    },
+    {
+        name: "CSS 3",
+        icon: css,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    }
+
 ];
 
 const experiences = [
   {
-    title: "Full stack Developer",
-    company_name: "AB3D",
-    icon: logo_1,
-    iconBg: "#383E56",
-    date: "Dec 2020 - July 2021",
-    points: [
-      "Developed a robust backend using PHP, handling server-side logic and database operations efficiently.",
-      "Created a dynamic and user-friendly frontend with PHP, ensuring seamless interaction and a responsive design.",
-      "Designed the UI/UX, incorporating modern principles to enhance user engagement and satisfaction.",
-      "Expanded the project's reach by building a mobile app using React Native, tailored specifically for artisans.",
-      "Demonstrated strong problem-solving skills by successfully managing all aspects of the project independently.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
+    title: "Software Engineer",
     company_name: "Liberty Assured Limited",
     icon: liberty,
     iconBg: "#E6DEDD",
-    date: "Aug 2021 - Present",
+    date: "May 2022 - Present",
     points: [
-      "Key contributor in the development of 'WhisperSMS' a successful bulk SMS platform with over 100,000 users across Nigeria and Africa.",
-      "Collaborated as a team member to create 'Wisewinn,' an online betting platform featuring various game options.",
-      "Co-developed 'Paybox,' an agency banking application that facilitates money transfers, functioning similar to a banking platform.",
+      "Key contributor in the backend development of 'PayBox360' an innovative Human Resource Information System and Payroll solution with over 100,000 users across Nigeria and Africa. ",
+      "Collaborated as a team member to build and design the architecture, design and backend development of 'Wisewinn,' an online Lotto platform featuring various game options.",
+      "Designed and Developed 'Liberty Pay' an agency banking application that facilitates money transfers, ATM transactions, bills and utility payment functioning similar to a banking platform.",
       "Proficiently handled maintenance and addressed software fixes for these projects, ensuring optimal performance and user satisfaction.",
     ],
   },
+  {
+    title: "Full stack Developer (Volunteer)",
+    company_name: "DataFestAfrica",
+    icon: datafestafrica,
+    iconBg: "#383E56",
+    date: "March 2022 - Present",
+    points: [
+      "Created a dynamic and user-friendly frontend with HTML5/CSS£, ensuring seamless interaction and a responsive design.",
+      "Created a ticketing and merchandise payment gateway.",
+      "Demonstrated strong problem-solving skills by successfully managing all aspects of the project independently.",
+    ],
+  }
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
 ];
 
 const projects = [
   {
-    name: "Vibe Summarizer",
+    name: "AR Sharp",
     description:
-      "Web-based platform that simplifies your reading with an open-source article summerizer that transform lengthy articles into clear and concise summaries",
+      "A framework built from scratch from the C# Programming Language to create a fullstack webpage easily",
     tags: [
       {
-        name: "react",
+        name: "C-Sharp",
         color: "blue-text-gradient",
       },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
+    //   {
+    //     name: "redux",
+    //     color: "green-text-gradient",
+    //   },
+    //   {
+    //     name: "tailwind",
+    //     color: "pink-text-gradient",
+    //   },
+    //   {
+    //     name: "typescript",
+    //     color: "blue-text-gradient",
+    //   },
     ],
-    image: summary,
-    source_code_link: "https://github.com/EdmundGiwa/vibe-summerizer",
+    image: ar_sharp,
+    source_code_link: "https://github.com/RooseveltTech/ARSharp.Net",
   },
+//   {
+//     name: "Whisper SMS",
+//     description:
+//       "Web application that enables users send promotional and transactional messages to limitless number of people with instant OTPs, transactional Email notifications, voice OTP, two-way interactions",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "Django",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "tailwind",
+//         color: "pink-text-gradient",
+//       },
+//       {
+//         name: "typescript",
+//         color: "blue-text-gradient",
+//       },
+//     ],
+//     image: whisper,
+//     source_code_link: "https://whispersms.com",
+//   },
   {
-    name: "Whisper SMS",
+    name: "PayBox",
     description:
-      "Web application that enables users send promotional and transactional messages to limitless number of people with instant OTPs, transactional Email notifications, voice OTP, two-way interactions",
+      "A web application for to manage employees and payroll",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "Django",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "redis",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "celery",
         color: "pink-text-gradient",
       },
       {
-        name: "typescript",
+        name: "api",
         color: "blue-text-gradient",
       },
     ],
-    image: whisper,
-    source_code_link: "https://whispersms.com",
+    image: paybox,
+    source_code_link: "https://paybox360.com/",
   },
   {
     name: "Wise Winn",
@@ -235,7 +263,7 @@ const projects = [
       "An online jackpot lottery platform, with amazing game options to win cash prize and others",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
@@ -243,15 +271,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "redis",
         color: "pink-text-gradient",
       },
       {
-        name: "typescript",
+        name: "celery",
         color: "blue-text-gradient",
       },
       {
-        name: "zustard",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
@@ -259,46 +287,12 @@ const projects = [
     source_code_link: "https://wisewinn.com/",
   },
   {
-    name: "Vibe Clothly",
+    name: "Liberty Pay",
     description:
-      "A web application to Create unique and exclusive shirt with our brand new 3D customization tool. Unleash your imagination and define your style",
+      "A financial application that enables users to make transactions, pay bills, transfer funds, and more",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-
-      {
-        name: "express",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "threeJS",
-        color: "green-text-gradient",
-      },
-    ],
-    image: clothly,
-    source_code_link: "https://wisewinn.com/",
-  },
-  {
-    name: "PayBox",
-    description:
-      "A web application to Create unique and exclusive shirt with our brand new 3D customization tool. Unleash your imagination and define your style",
-    tags: [
-      {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
@@ -306,20 +300,25 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
+
       {
-        name: "typescript",
+        name: "redis",
         color: "blue-text-gradient",
       },
       {
-        name: "zustard",
+        name: "celery",
         color: "pink-text-gradient",
       },
+    //   {
+    //     name: "threeJS",
+    //     color: "green-text-gradient",
+    //   },
     ],
-    image: paybox,
-    source_code_link: "https://paybox.biz/",
+    image: libertypay,
+    source_code_link: "https://www.libertypayng.com/",
   },
 ];
 

@@ -8,7 +8,7 @@ import jobit from "./jobit.png";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import mobile from "./mobile.png";
-import summary from "./summary.png";
+import ar_sharp from "./ar_sharp.png";
 import tripguide from "./tripguide.png";
 import web from "./web.png";
 import whisper from "./whisper.png";
@@ -19,20 +19,21 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import python from "./tech/python.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import aws from "./tech/aws.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import azure from "./tech/azure.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
+import django from "./tech/django.png";
+import redis from "./tech/redis.jpg";
 import typescript from "./tech/typescript.png";
-import clothly from "./clothly.png";
+import libertypay from "./libertypay.png";
 import paybox from "./paybox.png";
-import logo_1 from "./logo_1.png";
+import datafestafrica from "./datafestafrica.png";
 import liberty from "./liberty.png";
 
 export {
@@ -46,17 +47,18 @@ export {
   close,
   css,
   docker,
-  figma,
+  aws,
   git,
   html,
   javascript,
-  mongodb,
+  azure,
   nodejs,
   reactjs,
-  redux,
+  django,
   tailwind,
   typescript,
-  threejs,
+  python,
+  redis,
   meta,
   shopify,
   starbucks,
@@ -64,11 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
-  summary,
+  ar_sharp,
   whisper,
   games,
-  clothly,
+  libertypay,
   paybox,
-  logo_1,
+  datafestafrica,
   liberty,
 };

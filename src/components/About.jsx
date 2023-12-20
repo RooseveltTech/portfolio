@@ -49,11 +49,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Roosevelt Abandy is a Software Engineer, Technical writer, Power Platform Advocate and a Gold Microsoft Learn Student Ambassador who has trained over 2000+ and brought awareness to Microsoft technologies. 
+        His stacks include C#, Python, JavaScript, and Java amongst other Programming Languages. 
+        Furthermore, I have an interest in building large-scale distributed enterprise applications using microservices architectures. 
+        Some of my personal strengths are creativity, teamwork and curiosity for learning. 
+        As a graduate of Computer Science, I'm thrilled by the powers of 0's and 1's that shape our planet.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
